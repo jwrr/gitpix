@@ -163,7 +163,9 @@ return "
 $gp = new GitPix("./content");
 
 $html = $gp->echo_header();
+$html .= "<h2>Pictures</h2>";
 $html .= $gp->show_all_jpg();
+$html .= "<h2>Videos</h2>";
 $html .= $gp->show_all_mp4();
 echo($html);
 

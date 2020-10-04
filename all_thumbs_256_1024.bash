@@ -2,8 +2,8 @@
 argc=$#
 argv=("$@")
 
-path_filter='../xipix_content/*'
-file_filter='*orig.jpg'
+path_filter='../xipix_content/2020-10-04'
+file_filter='*.jpg'
 
 if [ $argc -ge 1]
 then
